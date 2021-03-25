@@ -56,6 +56,8 @@ public class Basics extends Base {
 		System.out.println("size of all the clickable properties: " + size);
 
 		System.out.println("Final");
+		
+		//test
 
 	}
 

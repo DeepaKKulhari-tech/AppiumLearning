@@ -26,12 +26,12 @@ public class Base {
 			capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Device");
 
 		//if we are running test in Chrome browser
-		capabilities.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
-		capabilities.setCapability(MobileCapabilityType.BROWSER_VERSION, "2.16");
+		//capabilities.setCapability(MobileCapabilityType.BROWSER_NAME, "Chrome");
+		//capabilities.setCapability(MobileCapabilityType.BROWSER_VERSION, "2.16");
 		//capabilities.setCapability(MobileCapabilityType.APP, app.getAbsolutePath());
-		ChromeOptions chromeOptions = new ChromeOptions();
-		chromeOptions.setExperimentalOption("w3c", false);
-		capabilities.merge(chromeOptions);
+		//ChromeOptions chromeOptions = new ChromeOptions();
+		//chromeOptions.setExperimentalOption("w3c", false);
+		//capabilities.merge(chromeOptions);
 		driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
 		
 
